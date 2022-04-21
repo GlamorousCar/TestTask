@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "testtask"
+version = "0.1.0"
+description = ""
+authors = ["GlamorousCar <I89267857387@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.4"
+djangorestframework = "^3.13.1"
+django-mptt = "^0.13.4"
+django-rest-swagger = "^2.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
